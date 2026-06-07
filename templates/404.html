@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+    <div style="text-align: center; margin-top: 80px;">
+        <h1 style="font-size: 72px; color: #e53e3e; margin-bottom: 10px;">404</h1>
+        <h2>Oops! Page Not Found</h2>
+        <p style="color: #718096; margin-bottom: 30px;">The resource or user you are looking for does not exist in our system.</p>
+        <a href="{{ url_for('index') }}" class="btn">Back to Home</a>
+    </div>
+{% endblock %}
